@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+scikit-learn = "*"
+flask = "*"
+waitress = "*"
+
+[dev-packages]
+jupyter = "*"
+matplotlib = "*"
+seaborn = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.10"
